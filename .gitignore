@@ -1,0 +1,12 @@
+# Etat local et sauvegardes KiCad
+*.kicad_prl
+*.lck
+~*.lck
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+.history/
+fp-info-cache
+Thumbs.db
+desktop.ini

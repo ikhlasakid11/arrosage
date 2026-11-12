@@ -1,0 +1,31 @@
+BIBLIOTHEQUE SHT40 POUR KiCad 9/10
+
+Contenu : symbole SHT40 et empreinte DFN-4 1,5 x 1,5 mm du composant nu.
+Ce pack est une bibliotheque, pas une modification du projet SmartPot.
+
+INSTALLATION
+1. Decompresser ce dossier dans le dossier de votre projet.
+2. Editeur de schema > Preferences > Gerer les bibliotheques de symboles.
+3. Onglet Bibliotheques du projet > Ajouter une bibliotheque existante.
+   Choisir SHT40.kicad_sym et conserver le nom SHT40.
+4. Editeur PCB > Preferences > Gerer les bibliotheques d'empreintes.
+5. Onglet Bibliotheques du projet > Ajouter une bibliotheque existante.
+   Choisir le dossier SHT40.pretty et conserver le nom SHT40.
+6. Dans le schema : A > rechercher SHT40 > placer SHT40:SHT40.
+   L'empreinte SHT40:SHT40_DFN4 est deja associee au symbole.
+
+CONNEXIONS
+1 = SDA ; 2 = SCL ; 3 = VDD (3,3 V) ; 4 = VSS (GND).
+Ajouter 100 nF entre VDD et GND, pres du capteur.
+Prevoir les resistances de rappel SDA/SCL vers 3,3 V si absentes.
+Ne pas ajouter de cuivre sous le capteur hors plages de connexion.
+Verifier la reference exacte du composant commande avant fabrication.
+Le modele 3D n'est pas inclus ; son absence ne bloque pas le PCB.
+
+SOURCE
+Symbole et empreinte adaptes des bibliotheques officielles KiCad.
+Licence CC-BY-SA 4.0 avec exception KiCad pour les conceptions electroniques.
+https://www.kicad.org/libraries/license/
+https://gitlab.com/kicad/libraries/kicad-symbols
+https://gitlab.com/kicad/libraries/kicad-footprints
+Datasheet : https://sensirion.com/media/documents/33FD6951/662A593A/HT_DS_Datasheet_SHT4x.pdf

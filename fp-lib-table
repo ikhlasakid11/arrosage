@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SHT40") (type "KiCad") (uri "${KIPRJMOD}/footprints/SHT40.pretty") (options "") (descr "Capteur SHT40"))
+  (lib (name "LPS4018-223MRC") (type "KiCad") (uri "${KIPRJMOD}/footprints/LPS4018-223MRC.pretty") (options "") (descr "Bobine LPS4018"))
+  (lib (name "SmartPot_RF") (type "KiCad") (uri "${KIPRJMOD}/footprints/SmartPot_RF.pretty") (options "") (descr "Antenne du schema radio"))
+)
