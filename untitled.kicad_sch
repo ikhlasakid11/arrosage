@@ -3784,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627b9030-18b7-4097-8bd4-0d46d14bd8c6")
-		(property "Reference" "A1"
+		(property "Reference" "A2"
 			(at 158.75 62.8649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCB_868MHz_CST_IFA"
+		(property "Value" "IFA_868MHz_CST_A2"
 			(at 158.75 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,18 +3805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SmartPot_RF:CST_IFA_868MHz_SmartPot"
-			(at 158.75 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://github.com/MaxBarbe/SmartPot_RAK3172/blob/main/CST/TP1_M2_Smart_2-3.cst"
+		(property "Footprint" "Arrosage_RF:A2_IFA_868MHz_CST"
 			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3827,7 +3816,18 @@
 				)
 			)
 		)
-		(property "Description" "CST IFA radiator; intentional short to GND through net tie; physical feed added, resimulation required"
+		(property "Datasheet" "${KIPRJMOD}/docs/cst/antenne_IFA_868MHz.cst"
+			(at 158.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IFA du fichier antenne_IFA_868MHz.cst; cuivre 1:1; pad 1 RF, pad 2 GND; simulation provisoire sur FR4 0.8mm"
 			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3847,7 +3847,7 @@
 		(instances
 			(project "arrosage"
 				(path "/b7b37d62-28eb-4eba-b8e8-6ee682b6765d/1edc049a-7898-403f-a588-63295cba8670"
-					(reference "A1")
+					(reference "A2")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,23 @@
+{
+  "board_mm": [
+    35,
+    55
+  ],
+  "thickness_mm": 1.6,
+  "layers": 2,
+  "components": 47,
+  "antenna_area_mm": [
+    35,
+    13.75
+  ],
+  "components_area_mm": [
+    35,
+    41.25
+  ],
+  "tracks": 580,
+  "vias": 55,
+  "min_track_width_mm": 0.2,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "circuit_preserved": true
+}

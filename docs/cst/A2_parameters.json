@@ -1,0 +1,25 @@
+{
+    "parameters": [
+        {
+            "expr": "23",
+            "name": "Lretour",
+            "value": "23"
+        },
+        {
+            "expr": "-14.6",
+            "name": "Xfeed",
+            "value": "-14.6"
+        },
+        {
+            "expr": "0.868",
+            "name": "f_cible",
+            "value": "0.868"
+        },
+        {
+            "expr": "8.0",
+            "name": "Ltip",
+            "value": "8.0"
+        }
+    ],
+    "version": 1
+}

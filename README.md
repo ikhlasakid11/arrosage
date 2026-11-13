@@ -26,3 +26,11 @@ aucune nouvelle licence generale n'est attribuee.
 Les sauvegardes `.history/` et preferences personnelles sont ignorees par Git.
 Le projet est en cours : cette preparation pour GitHub ne valide pas la
 conception electrique ni l'aptitude du PCB a la fabrication.
+
+L'antenne CST du projet est importee sous la reference **A2**, dans la
+bibliotheque `Arrosage_RF`. Voir [les cotes, raccords et limites de l'import](docs/A2_IFA_868MHz_CST.md).
+
+La carte est maintenant placee et routee en **35 x 55 mm, deux couches,
+epaisseur 1,6 mm**, avec 25 % de la surface reservee a l'antenne.
+Le [rapport de routage](docs/ROUTAGE_35x55.md) indique les verifications et
+les points du schema et de la liaison RF a revoir avant fabrication.
