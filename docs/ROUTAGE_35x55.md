@@ -1,6 +1,9 @@
 # Carte arrosage routee — 35 x 55 mm
 
-Version du 13 novembre 2026, KiCad 10.
+Rapport historique de la version du 13 novembre 2026, KiCad 10.
+La version actuelle et ses controles sont decrits dans
+[Version test — 25 novembre 2026](TEST_35x55.md). Les nombres et placements
+ci-dessous concernent uniquement la version initiale.
 
 ## Dimensions et repartition
 

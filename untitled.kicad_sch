@@ -2761,7 +2761,7 @@
 		)
 		(uuid "f7913b9d-02f8-4804-ac00-7da661a9e6c7")
 	)
-	(label "RF_FEED"
+	(label "RF_MATCH"
 		(at 143.51 55.88 0)
 		(effects
 			(font
@@ -4834,7 +4834,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8f2a5d-2ad0-4612-8849-c57a37da0c92")
 		(property "Reference" "R4"
@@ -5388,4 +5388,6 @@
 			)
 		)
 	)
+
+	(label "RF_MATCH" (at 121.92 44.45 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "7dfd08b7-2812-449a-adcb-3bfb4a6c9126"))
 )

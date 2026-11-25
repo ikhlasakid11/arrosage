@@ -1,0 +1,160 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T21:14:56",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/b7b37d62-28eb-4eba-b8e8-6ee682b6765d",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label Global 'VBAT_OK'",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.8763
+                            },
+                            "uuid": "881c5581-477d-4ba7-9472-8bf1de26f387"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Le symbole 'BQ25570' ne correspond pas à la copie en librairie 'Battery_Management'",
+                    "items": [
+                        {
+                            "description": "Symbole U3 [BQ25570]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.8255
+                            },
+                            "uuid": "86ce98ea-5f6f-44ac-b336-90796dd40c16"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/BQ25570/",
+            "uuid_path": "/b7b37d62-28eb-4eba-b8e8-6ee682b6765d/76c66b39-98b6-4679-90a9-ce4839b54a9f",
+            "violations": [
+                {
+                    "description": "Unconnected \"no connection\" flag",
+                    "items": [
+                        {
+                            "description": "Non Connexion",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.8255
+                            },
+                            "uuid": "24a94f18-0a7a-4814-a7cf-91e1118f7535"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_dangling"
+                },
+                {
+                    "description": "Unconnected \"no connection\" flag",
+                    "items": [
+                        {
+                            "description": "Non Connexion",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.8763
+                            },
+                            "uuid": "e0ee110a-1c1e-4b65-813a-4c769d778aea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_dangling"
+                }
+            ]
+        },
+        {
+            "path": "/capteur/",
+            "uuid_path": "/b7b37d62-28eb-4eba-b8e8-6ee682b6765d/f41908a0-3843-4481-8952-c63516637365",
+            "violations": []
+        },
+        {
+            "path": "/Microcontroleur/",
+            "uuid_path": "/b7b37d62-28eb-4eba-b8e8-6ee682b6765d/1edc049a-7898-403f-a588-63295cba8670",
+            "violations": [
+                {
+                    "description": "SDA et SOIL_SDA sont attachés aux mêmes éléments.  SDA a été choisi comme label  en netliste",
+                    "items": [
+                        {
+                            "description": "Label Global 'SDA'",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.8001
+                            },
+                            "uuid": "aa01a8aa-c27d-45d5-a73e-f79014da7367"
+                        },
+                        {
+                            "description": "Label Global 'SOIL_SDA'",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.8001
+                            },
+                            "uuid": "6c16bf2f-39dd-423d-91ab-5316e7b5f800"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "SCL et SOIL_SCL sont attachés aux mêmes éléments.  SCL a été choisi comme label  en netliste",
+                    "items": [
+                        {
+                            "description": "Label Global 'SCL'",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.8255
+                            },
+                            "uuid": "4d971dce-4b9f-4f52-8451-a7d8e41fa8e8"
+                        },
+                        {
+                            "description": "Label Global 'SOIL_SCL'",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.8255
+                            },
+                            "uuid": "04a5d030-ece4-4192-8152-e55d5ff340ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "arrosage.kicad_sch"
+}

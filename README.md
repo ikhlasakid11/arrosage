@@ -32,5 +32,10 @@ bibliotheque `Arrosage_RF`. Voir [les cotes, raccords et limites de l'import](do
 
 La carte est maintenant placee et routee en **35 x 55 mm, deux couches,
 epaisseur 1,6 mm**, avec 25 % de la surface reservee a l'antenne.
-Le [rapport de routage](docs/ROUTAGE_35x55.md) indique les verifications et
-les points du schema et de la liaison RF a revoir avant fabrication.
+La **version test du 25 novembre 2026** place l'U.FL sur le trajet RF, ajoute
+les reperes en serigraphie, degage le bornier solaire et retire les sept
+resistances alternatives inutiles. Voir [les modifications et controles de
+la version test](docs/TEST_35x55.md), les vues du PCB et le plan d'implantation.
+Le DRC et la parite schema/PCB sont sans violation ni connexion manquante.
+La validation radio et les points electriques signales sur J19 et EN restent
+necessaires avant fabrication finale.

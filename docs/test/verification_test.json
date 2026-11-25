@@ -1,0 +1,34 @@
+{
+  "version": "test",
+  "board_mm": [
+    35,
+    55
+  ],
+  "thickness_mm": 1.6,
+  "copper_layers": 2,
+  "footprints": 40,
+  "removed_references": [
+    "ROV1B1",
+    "ROV2B1",
+    "ROK1B1",
+    "ROK2B1",
+    "ROK3B1",
+    "ROUT1B1",
+    "ROUT2B1"
+  ],
+  "track_segments": 862,
+  "vias": 64,
+  "silkscreen_references": {
+    "front": 21,
+    "back": 19
+  },
+  "rf_front_only": true,
+  "rf_no_vias": true,
+  "R4_populated": true,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity": 0,
+  "erc_errors": 0,
+  "erc_warnings": 6,
+  "pcb_sha256": "122986b86e2d69d33622d153170e310f7be56aa9764d51e98caa78132ea1c086"
+}
